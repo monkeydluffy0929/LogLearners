@@ -20,13 +20,17 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #6F4E37;
+  --color-primary: #01909A;
   --color-secondary: #f85a40;
 }
 
 /* Smooth scroll behavior */
 :root {
   scroll-behavior: smooth;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding: 5rem;
 }
 
 /*--------------------------------------------------------------
@@ -106,6 +110,7 @@ section {
 }
 .alivar p{
   text-align: center;
+  font-size: 20px;
 }
 .alivar h3{
   text-align: center;
@@ -128,7 +133,7 @@ section {
 }
 
 .breadcrumbs .page-header h2 {
-  font-size: 56px;
+  font-size: 1000px;
   font-weight: 500;
   color: #fff;
   font-family: var(--font-secondary);
@@ -256,7 +261,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #fcf1bb;
+  background: #fff;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -369,7 +374,7 @@ section {
 
   .navbar>ul>li {
     white-space: nowrap;
-    padding: 10px 0 10px 20px;
+    padding: 10px 0 12px 24px;
   }
 
   .navbar a,
@@ -379,7 +384,7 @@ section {
     justify-content: space-between;
     padding: 0 3px;
     font-family: var(--font-secondary);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 650;
     color: rgba(255, 255, 255, 0.6);
     white-space: nowrap;
@@ -1002,7 +1007,7 @@ section {
 
 .services .service-item p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 10px;
   margin-bottom: 100;
 }
 
@@ -1737,7 +1742,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #927700;
+  background-color: #fa692a;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1982,7 +1987,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #fcf1bb;
+  background: #ffff;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -2010,11 +2015,11 @@ section {
   transition: all 0.3s ease-in-out;
   font-size: 48px;
   line-height: 1;
-  color: #baa45b;
+  color: #fa692a;
 }
 
 .hero .icon-box:hover {
-  background: #99582a;
+  background: #fa692a;
 }
 
 .hero .icon-box:hover .title a,
@@ -2686,8 +2691,3 @@ section {
 .footer .credits a {
   color: #fff;
 }
-
-
-
-
-
