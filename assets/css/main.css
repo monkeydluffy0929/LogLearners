@@ -350,7 +350,7 @@ section {
 /*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
-@media (min-width: 1280px) {
+@media (min-width: 1000px) {
   .navbar {
     padding: 0;
   }
@@ -369,7 +369,7 @@ section {
 
   .navbar>ul>li {
     white-space: nowrap;
-    padding: 10px 0 10px 28px;
+    padding: 10px 0 10px 20px;
   }
 
   .navbar a,
@@ -379,8 +379,8 @@ section {
     justify-content: space-between;
     padding: 0 3px;
     font-family: var(--font-secondary);
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 650;
     color: rgba(255, 255, 255, 0.6);
     white-space: nowrap;
     transition: 0.3s;
@@ -517,7 +517,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: #6F4E37;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -573,8 +573,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #007466;
-    border: 1px solid #006459;
+    background-color: #6F4E37;
+    border: 1px solid #6F4E37;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -616,8 +616,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
-    z-index: 9996;
+    background: #6F4E37;
   }
 }
 
@@ -1775,6 +1774,8 @@ section {
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
+  color: #fff;
+
 }
 
 .contact .info-item:hover i {
